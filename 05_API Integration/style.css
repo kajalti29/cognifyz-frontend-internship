@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-card {
+  background: #f4f4f4;
+  margin: 10px auto;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+}
