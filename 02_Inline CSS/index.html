@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline CSS</title>
+    <title>Inline CSS Alignment Fix</title>
 </head>
 
-<body style="background-color: #f0f8ff;">
+<body style="background-color: #f0f8ff; 
+             font-family: Arial; 
+             margin: 0; 
+             padding: 20px;">
 
     <h1 style="color: white; 
                background-color: green; 
                font-size: 40px; 
-               text-align: center;">
+               text-align: center; 
+               padding: 15px; 
+               border-radius: 8px;">
         Welcome to My Styled Page
     </h1>
 
-    <p style="color: blue; 
-              font-size: 18px; 
-              background-color: yellow; 
-              padding: 10px;">
-        This paragraph is styled using inline CSS.
-        The font color, size, and background color are changed.
-    </p>
+    <div style="max-width: 800px; 
+                margin: 20px auto;">
 
-    <h2 style="color: purple; font-size: 28px;">
-        Learning Inline CSS
-    </h2>
+        <h2 style="color: purple; text-align: center;">
+            Learning Inline CSS
+        </h2>
 
-    <p style="color: white; 
-              background-color: teal; 
-              font-size: 20px; 
-              padding: 10px;">
-        Inline CSS is written directly inside HTML tags
-        using the style attribute.
-    </p>
+        <p style="color: blue; 
+                  font-size: 18px; 
+                  background-color: yellow; 
+                  padding: 15px; 
+                  border-radius: 8px; 
+                  text-align: justify;">
+            This paragraph is styled using inline CSS.
+            The font color, size, and background color are changed.
+        </p>
 
-    <img src="photo-1547525623-c7d42c20284c.avif"
-         alt="Sample Image"
-         style="border-radius: 10px; 
-                margin-top: 20px; 
-                box-shadow: 0px 0px 10px gray;">
+        <p style="color: white; 
+                  background-color: teal; 
+                  font-size: 20px; 
+                  padding: 15px; 
+                  border-radius: 8px; 
+                  text-align: justify;">
+            Inline CSS is written directly inside HTML tags
+            using the style attribute.
+        </p>
+
+        <div style="text-align: center;">
+            <img src="photo-1547525623-c7d42c20284c.avif"
+                 alt="Sample Image"
+                 style="width: 300px; 
+                        height: 400px;
+                        border-radius: 10px; 
+                        margin-top: 20px; 
+                        box-shadow: 0px 0px 10px gray;">
+        </div>
+
+    </div>
 
 </body>
 </html>
