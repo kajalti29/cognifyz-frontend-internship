@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic HTML Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Basic HTML Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <!-- Heading -->
+  <div class="container">
+    <!-- Heading -->
     <h1>Welcome to My Website</h1>
 
-    <!-- Paragraph -->
-    <p>
-        This is a simple HTML page created for Task 1.
-        It demonstrates the basic structure of an HTML document.
-    </p>
+    <!-- first paragraph -->
+    <div class="text-image-container">
+      <div class="text">
+        <h2>About This Page</h2>
+        <p>
+          This is a simple HTML page created for Task 1. It demonstrates the basic structure of an HTML document.
+        </p>
+      </div>
+    </div>
 
-    <!-- Sub Heading -->
-    <h2>About This Page</h2>
-
-    <!-- Another Paragraph -->
-    <p>
-        This page includes headings, paragraphs, and an image.
-        It is built using basic HTML tags only.
-    </p>
-
-    <!-- Image -->
-    <img src="https://via.placeholder.com/300"
-         alt="Sample Image"
-         width="300">
-
-
+    <!-- Second paragraph with an image -->
+    <div class="text-image-container">
+      <div class="text">
+        <h2>About This Page</h2>
+        <p>
+          This page includes headings, paragraphs, and an image. It is built using basic HTML tags only.
+        </p>
+      </div>
+      <div class="image">
+        <img src="Images\photo-1584907797015-7554cd315667.avif" alt="Laptop Image">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
